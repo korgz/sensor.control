@@ -1,1 +1,2 @@
-# led.control.io
+# led.control.i
+reads characters from the serial input and controls the onboard LED based on sent '1' or '0'.
