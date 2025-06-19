@@ -1,11 +1,24 @@
-# Arduino uno r3
-# main.ino Reads characters from the serial input and controls the onboard LED based on sent '1' or '0'.
+# Arduino Uno R3 Projects
 
-# /TempControl divided into 3 files, runs motor on pin8 on temperature reading.
+---
 
-# motortest.ino runs motor based on temperature reading.
+## Project Descriptions
 
-# TempHum.ino Temperature and humidity logger. DHT11 Sensor.
+### `main.ino`
+- Reads characters from serial input.
+- Controls the onboard LED based on received characters `'1'` or `'0'`.
 
-# GarageDoor.ino Switch on PIN2, no ultrasonic sensor.
+### `/TempControl`
+- Divided into 3 files.
+- Runs a motor connected to pin 8 based on temperature readings.
 
+### `motortest.ino`
+- Controls the motor operation based on temperature sensor input.
+
+### `TempHum.ino`
+- Logs temperature and humidity data.
+- Uses a DHT11 sensor.
+
+### `GarageDoor.ino`
+- Controls a switch connected to PIN 2.
+- Does **not** use an ultrasonic sensor.
